@@ -10,7 +10,6 @@ touch .gitignore  (windows檔案必須要有檔名,這指令可以創造不需要檔名的檔案)
 git branch branchName    創建新branch
 git checkout branchName  切換到branch
 git merge branchName     把分支合併master
-git commit -m -a 'comment'
-test
-test
+git commit -a -m 'comment' 修改上一個提交
+
 
