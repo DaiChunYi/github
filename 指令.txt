@@ -1,0 +1,6 @@
+git init   ªì©l¤Æ
+git add (file)  
+git status
+git commit:
+	i  insertion
+	1.esc  2.:wq    save and leave
