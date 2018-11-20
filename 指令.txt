@@ -12,4 +12,5 @@ git checkout branchName  切換到branch
 git merge branchName     把分支合併master
 git commit -m -a 'comment'
 test
+test
 
