@@ -1,6 +1,13 @@
 git init   初始化
-git add (file)  
+git add file  file = 123.txt || .(all file) || *.html  
 git status
 git commit:
 	i  insertion
 	1.esc  2.:wq    save and leave
+git commit -m 'comment'
+git log   history
+touch .gitignore  (windows檔案必須要有檔名,這指令可以創造不需要檔名的檔案)
+git branch branchName    創建新branch
+git checkout branchName  切換到branch
+
+test
