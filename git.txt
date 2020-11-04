@@ -1,0 +1,48 @@
+https://backlog.com/git-tutorial/tw/intro/intro1_1.html
+
+#查看目前所在分支
+git branch 
+#創立一個分支 name
+git branch <branch_name>
+#切換到 branch_name
+git checkout <branch_name>
+
+git checkout -b <branch_name>
+=git branch <branch_name> + git checkout <branch_name>
+#合併 master update~~
+git merge <branch_name>
+#合併完 branch沒用惹 刪除～～
+git branch -d <branch_name>
+#確認
+git branch
+#取消剛剛的合併
+git reset --hard HEAD~
+#另一種合併方式
+git checkout issue3
+git rebase master
+	#修改衝突的第方
+git add *
+git rebase --continue
+git checkout master
+git merge issue3
+#pull = fetch + merge
+
+#在目前的head下加入標籤
+git tag <tag_name>
+git tag #查看有什麼tag
+git log --decorate #查看tag的紀錄
+#附註解
+git tag -a <tag_name>
+＃直接註解
+git tag -am "comment" <tag_name>
+＃查看tag註解
+git tag -n
+#刪除 tag
+git tag -d <tag_name>
+＃修改提交的comment
+git commit --amend
+＃反悔commit
+git revert HEAD #HEAD的位置感覺是tag?
+git reset --hard HEAD~~ #幾個～代表往前回去幾個
+
+
